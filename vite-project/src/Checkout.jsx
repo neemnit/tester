@@ -22,7 +22,7 @@ const Checkout = () => {
             }
         };
 
-        const response = await fetch('http://localhost:4000/payment', { // Backend API URL
+        const response = await fetch('https://tester-bb9p.onrender.com/payment', { // Backend API URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
